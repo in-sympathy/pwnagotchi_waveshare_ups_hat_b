@@ -1,0 +1,6 @@
+# Add this block to your /etc/pwnagotchi/config.toml to enable the plugin.
+# The plugin reads the INA219 on the Waveshare UPS HAT / UPS HAT (B) at
+# I2C address 0x42 and shows the battery percentage on the display.
+
+[main.plugins.wavesharebattery]
+enabled = true
